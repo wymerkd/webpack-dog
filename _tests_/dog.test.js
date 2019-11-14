@@ -8,4 +8,9 @@ describe('Dog', () => {
     expect(myDog.dogColor).toEqual("brown");
     expect(myDog.dogAge).toEqual(3);
   });
+
+  test('should convert dog years to people years', () => {
+    var testDog = new Dog (0,0,3);
+    expect(testDog.peopleYears(3)).toEqual(21);
+  });
 });

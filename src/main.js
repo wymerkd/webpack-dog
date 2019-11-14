@@ -13,5 +13,6 @@ $(document).ready(function(){
     let dogAge = parseInt($("#dogAge").val());
 
     let newDog = new Dog (dogName, dogColor, dogAge);
+    
   });
 });
